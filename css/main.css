@@ -1,0 +1,237 @@
+
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+html.js .loader_inner {
+	background-image: url("../img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+body {
+  position: relative;
+  padding: 22px;
+	
+	background-image: url(../img/lotus-top.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	font-family: nautilus;
+	color: #11a0c4;
+	font-size: 20px;
+	font-family: "nautilus";
+	overflow-x: hidden;
+}
+.landing_page {
+	
+}
+.container {
+max-width: 930px !important;
+max-height: 615px !important; 
+
+opacity: 0.7;
+font-family: "nautilus";
+color: #11a0c4;
+}
+
+
+.thumb {
+background-image: url(../img/flower_background.png);
+box-shadow: 15px 15px 15px black;
+width: 300px;
+height: 200px;	
+float: left;
+overflow: hidden;
+border: 1px solid #eee;
+position: relative;
+
+}
+
+	.wrapper {
+	max-width: 100%;
+	height: auto;
+	position: absolute;
+	top:0; left: 0;
+	
+}
+ 
+.content {
+		position: relative;
+		top: 30px; left: 40px;
+		margin: center;
+	 	padding: center;
+	}
+
+.modal {
+	font-family: "nautilus";
+	color: #9b352d;
+	font-size: 20px;
+	text-align: center;
+	margin: 10px;
+	
+}
+
+.modal-header {
+background-color: #84cba4;
+background-size: cover;
+background-repeat: repeat;
+opacity: ;
+}
+
+.btn {
+	position: relative;
+	
+	
+	
+}
+
+.modal-body {
+	background-image: url(../img/flower_background.png);
+	background-repeat: repeat;
+	background-size: contain;
+	background-position: center center;
+	
+	color: #9b352d;
+
+}
+.close {
+	position: absolute;
+	margin-left: 415px;
+
+}
+ a.pluso-more {
+    display: none !important; 
+}
+
+.pluso-counter {
+	display: none !important;
+}
+.pluso {
+	position: fixed; 
+	float: right;
+	margin-top: -430px; 
+	opacity: 0.7;
+}
+.pluso:hover { 
+	opacity: 1;
+}
+.logo-landing {
+	
+	position: fixed;
+	top: -80px;
+	left: -45px;
+	z-index: 1000;
+	float: left;
+	opacity: 0.7;
+}
+.logo-landing:hover {
+	display: block;
+	position: absolute;
+	top: -50px;
+	left: -25px;
+	opacity: 1;
+	transition: all 0.5s;
+}
+a.logo-landing {
+
+}
+.footer {
+padding: auto auto;
+margin: auto auto;
+position: relative;
+background-color: #6ca681;	
+	
+}
+
+.header {
+	display: block;
+	
+	width: 200px;
+	height: 100px;
+}
+p {
+	color: black;
+}
+
+.pluso-001010101010-04 .pluso-wrap a {
+    background-image: url("../img/Social/social-1.png")!important;
+}
+
+.pluso-001010101010-04 .pluso-wrap a.pluso-vkontakte {
+    background-position: 0px -1px!important;
+}
+
+.pluso-001010101010-04 .pluso-wrap a.pluso-odnoklassniki {
+    background-position: -48px 0!important;
+}
+
+.pluso-001010101010-04 .pluso-wrap a.pluso-google {
+    background-position: -96px 0!important;
+}
+
+.pluso-001010101010-04 .pluso-wrap a.pluso-facebook {
+    background-position: -144px 0!important;
+}
+
+.pluso-001010101010-04 .pluso-wrap a.pluso-email {
+    background-position: -192px 0!important;
+}
+
+.pluso-001010101010-04 .pluso-wrap a.pluso-instapaper {
+    background-position: -240px 2px!important;
+}
+
+.map {
+	display: flex!important;
+	text-align: center!important;
+
+}
